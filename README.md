@@ -1,8 +1,9 @@
-## NBA 2017 data analysis with Phyton
+### NBA 2017 data analysis with Phyton
 
 Introduction In this project, we'll work with data from the 2017 NBA Season (a pretty exciting one) to perform Data Wrangling techniques, and then some analysis. We'll start by performing some Data Wrangling techniques to join the data from the season with that of players. We'll then perform different modifications and cleaning tasks to make sure our data is ready for analysis. Finally, we'll perform some analysis using Group By and Transform operations.
 
-1 Merge s2017_df and players_df with a left join
+## 1 Merge s2017_df and players_df with a left join
+
 Merge s2017_df and players_df using a left outer join, that means, we want to have all the stats information, but if there are missing values that can't be matched from players_df, we want to set those season values as null. Store the results from the merge in the variable df. 2 Are there misses (mismatches) in the resulting dataframe? As we performed a left outer join, if some values in from s2017_df couldn't be matched in players_df, the result will be null values (also referred as "misses" or "mismatches"). Are there any?
 
 Yes No
